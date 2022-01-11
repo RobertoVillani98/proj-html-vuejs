@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :links="links" />
     <Main />
     <Footer />
   </div>
@@ -17,6 +17,36 @@ export default {
     Header,
     Main,
     Footer,
+  },
+  data() {
+    return {
+      links: [
+        {
+          name: "Home",
+          link: "#",
+        },
+        {
+          name: "Pages",
+          link: "#",
+        },
+        {
+          name: "Courses",
+          link: "#",
+        },
+        {
+          name: "Features",
+          link: "#",
+        },
+        {
+          name: "Blog",
+          link: "#",
+        },
+        {
+          name: "Shop",
+          link: "#",
+        },
+      ],
+    };
   },
 };
 </script>

@@ -4,12 +4,7 @@
       <nav>
         <img src="../../assets/img/light-logo.png" alt="max choach logo" />
         <ul>
-          <li>Home</li>
-          <li>Pages</li>
-          <li>Courses</li>
-          <li>Features</li>
-          <li>Blog</li>
-          <li>Shop</li>
+          <li v-for="(link, index) in links" :key="index">{{ link.name }}</li>
           <li><i class="fas fa-shopping-cart"></i></li>
           <li><i class="far fa-user-circle"></i></li>
           <li>
@@ -27,6 +22,9 @@
 <script>
 export default {
   name: "Header",
+  props: {
+    links: Array,
+  },
 };
 </script>
 
