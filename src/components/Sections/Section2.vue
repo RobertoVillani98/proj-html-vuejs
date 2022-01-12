@@ -107,12 +107,20 @@
         </div>
       </div>
     </div>
+    <Button :label="buttonLabel3" />
   </div>
 </template>
 
 <script>
+import Button from "../button/Button.vue";
 export default {
+  components: { Button },
   name: "Section2",
+  data() {
+    return {
+      buttonLabel3: "View all courses →",
+    };
+  },
 };
 </script>
 
@@ -121,7 +129,7 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px;
+  padding: 100px 0;
   background-color: #f5f7fa;
 
   h3 {
