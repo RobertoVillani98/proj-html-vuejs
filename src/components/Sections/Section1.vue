@@ -125,7 +125,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding-top: 200px;
-  background-color: #f6f3f6;
+  background-color: #ffffff;
   color: black;
   padding-bottom: 100px;
   .text-wrapper {

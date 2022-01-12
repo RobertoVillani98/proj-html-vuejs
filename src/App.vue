@@ -4,6 +4,7 @@
     <Hero />
     <Section1 />
     <Section2 />
+    <Section3 />
     <Footer />
   </div>
 </template>
@@ -14,6 +15,7 @@ import Hero from "./components/macro/Hero.vue";
 import Footer from "./components/macro/Footer.vue";
 import Section1 from "./components/Sections/Section1.vue";
 import Section2 from "./components/Sections/Section2.vue";
+import Section3 from "./components/Sections/Section3.vue";
 
 export default {
   name: "App",
@@ -22,6 +24,7 @@ export default {
     Hero,
     Section1,
     Section2,
+    Section3,
     Footer,
   },
   data() {
