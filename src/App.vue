@@ -2,10 +2,10 @@
   <div id="app">
     <Header :links="links" />
     <Hero />
-    <Section1 />
-    <Section2 />
-    <Section3 />
-    <Section4 />
+    <Info />
+    <Courses />
+    <About />
+    <Blogs />
     <Footer />
   </div>
 </template>
@@ -14,20 +14,20 @@
 import Header from "./components/macro/Header.vue";
 import Hero from "./components/macro/Hero.vue";
 import Footer from "./components/macro/Footer.vue";
-import Section1 from "./components/Sections/Section1.vue";
-import Section2 from "./components/Sections/Section2.vue";
-import Section3 from "./components/Sections/Section3.vue";
-import Section4 from "./components/Sections/Section4.vue";
+import Info from "./components/Sections/Info.vue";
+import Courses from "./components/Sections/Courses.vue";
+import About from "./components/Sections/About.vue";
+import Blogs from "./components/Sections/Blogs.vue";
 
 export default {
   name: "App",
   components: {
     Header,
     Hero,
-    Section1,
-    Section2,
-    Section3,
-    Section4,
+    Info,
+    Courses,
+    About,
+    Blogs,
     Footer,
   },
   data() {

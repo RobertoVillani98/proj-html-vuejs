@@ -76,7 +76,9 @@
 
       <div class="row-dx">
         <div class="subtitle">togheter we can create</div>
-        <div class="title">Services We Can Provide For My Clients.</div>
+        <div class="title">
+          Services We <span>Can Provide</span> For My Clients.
+        </div>
         <div class="text">
           <i class="fas fa-check"></i>
           <span class="text-check"
@@ -228,10 +230,14 @@ export default {
       font-size: 40px;
       max-width: 400px;
       margin: 20px 0;
-      color: #27ab94;
+      color: black;
+
+      span {
+        color: #27ab94;
+      }
     }
     .text {
-      color: green;
+      color: #27ab94;
       margin: 10px 0;
       font-size: 14px;
 
