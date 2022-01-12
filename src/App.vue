@@ -5,6 +5,7 @@
     <Section1 />
     <Section2 />
     <Section3 />
+    <Section4 />
     <Footer />
   </div>
 </template>
@@ -16,6 +17,7 @@ import Footer from "./components/macro/Footer.vue";
 import Section1 from "./components/Sections/Section1.vue";
 import Section2 from "./components/Sections/Section2.vue";
 import Section3 from "./components/Sections/Section3.vue";
+import Section4 from "./components/Sections/Section4.vue";
 
 export default {
   name: "App",
@@ -25,6 +27,7 @@ export default {
     Section1,
     Section2,
     Section3,
+    Section4,
     Footer,
   },
   data() {

@@ -1,6 +1,6 @@
 <template>
   <div class="why">
-    <h2>Whyc People Talk About <span>MaxCoach</span>?</h2>
+    <h2>Why People Talk About <span>MaxCoach</span>?</h2>
     <div class="row">
       <div class="card">
         <img
@@ -63,11 +63,10 @@ export default {
 
 <style lang="scss" scoped>
 .why {
-  height: 500px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 100px 0;
+  padding: 80px 0;
 
   h2 {
     font-size: 36px;
@@ -136,7 +135,6 @@ export default {
   justify-content: center;
   width: 100%;
   margin-top: 30px;
-  padding-bottom: 100px;
 
   .logo-img {
     display: flex;
