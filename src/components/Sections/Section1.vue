@@ -96,6 +96,7 @@
           <span class="text-check"
             >Get the desired certificate delivered at house</span
           >
+          <Button :label="buttonLabel2" />
         </div>
       </div>
     </section>
@@ -103,10 +104,19 @@
 </template>
 
 <script>
+import Button from "../button/Button.vue";
+
 export default {
+  components: { Button },
   name: "Section1",
+  data() {
+    return {
+      buttonLabel2: "Get started for free",
+    };
+  },
 };
 </script>
+
 
 <style lang="scss" scoped>
 .section-top {
