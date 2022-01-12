@@ -59,6 +59,7 @@ export default {
   .image {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 h2 {
@@ -73,8 +74,7 @@ p {
   margin-top: 50px;
   position: relative;
   z-index: 2;
-  .hero-sx {
-  }
+
   .hero-dx {
     margin-bottom: -39px;
   }
