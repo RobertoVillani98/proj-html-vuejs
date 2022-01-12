@@ -1,21 +1,27 @@
 <template>
   <div id="app">
     <Header :links="links" />
-    <Main />
+    <Hero />
+    <Section1 />
+    <Section2 />
     <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/macro/Header.vue";
-import Main from "./components/macro/Main.vue";
+import Hero from "./components/macro/Hero.vue";
 import Footer from "./components/macro/Footer.vue";
+import Section1 from "./components/Sections/Section1.vue";
+import Section2 from "./components/Sections/Section2.vue";
 
 export default {
   name: "App",
   components: {
     Header,
-    Main,
+    Hero,
+    Section1,
+    Section2,
     Footer,
   },
   data() {

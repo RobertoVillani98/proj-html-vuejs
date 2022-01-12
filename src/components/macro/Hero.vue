@@ -1,9 +1,9 @@
 <template>
-  <div class="hero">
+  <section class="hero-wrapper">
     <h2>Learn At Your Own Pace!</h2>
     <p>Get teamed up with people of the same will.</p>
     <Button :label="buttonLabel" />
-    <div class="container-hero">
+    <div class="image-container">
       <img
         class="hero-sx"
         src="../../assets/img/home-6-hero-left-person-244x300.png"
@@ -21,10 +21,10 @@
       />
     </div>
 
-    <div class="hero-bg">
+    <div class="hero-wrapper-bg">
       <img class="image" src="../../assets/img/wave.svg" alt="" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.hero {
+.hero-wrapper {
   width: 100%;
   height: 500px;
   background-color: #182154;
@@ -53,12 +53,12 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     height: inherit;
   }
   .image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
   }
 }
 h2 {
@@ -69,22 +69,20 @@ p {
   color: lightgrey;
 }
 
-.container-hero {
-  display: flex;
-  justify-content: center;
+.image-container {
   margin-top: 50px;
-
-  .hero-sx,
+  position: relative;
+  z-index: 2;
+  .hero-sx {
+  }
   .hero-dx {
-    z-index: 12;
+    margin-bottom: -39px;
   }
 
   .hero-cx {
-    z-index: 99;
-    width: 600px;
-    height: 400px;
-    border: 20px solid white;
     border-radius: 10px;
+    width: 600px;
+    border: 20px solid white;
     object-fit: contain;
   }
 }
