@@ -92,7 +92,7 @@ export default {
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 40px 500px;
+    margin: 40px 250px;
     gap: 20px;
   }
 
@@ -105,6 +105,7 @@ export default {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+    max-width: 300px;
   }
 
   .card-text {
