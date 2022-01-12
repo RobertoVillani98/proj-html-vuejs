@@ -127,6 +127,7 @@ export default {
   padding-top: 200px;
   background-color: #f6f3f6;
   color: black;
+  padding-bottom: 100px;
   .text-wrapper {
     text-align: center;
     display: flex;
@@ -157,7 +158,6 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  background-color: #f6f3f6;
   .rate {
     font-weight: bold;
     text-align: center;
@@ -186,6 +186,7 @@ export default {
     margin-top: 30px;
     gap: 20px;
     .card {
+      box-shadow: -1px 2px 22px 6px rgba(0, 0, 0, 0.4);
       width: 250px;
       background-color: #fff;
       overflow: hidden;

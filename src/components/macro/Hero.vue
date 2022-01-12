@@ -84,6 +84,7 @@ p {
     width: 600px;
     border: 20px solid white;
     object-fit: contain;
+    box-shadow: -1px 2px 22px 6px rgba(0, 0, 0, 0.4);
   }
 }
 </style>
