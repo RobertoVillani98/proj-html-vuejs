@@ -200,7 +200,7 @@ export default {
 
       .card-title {
         color: black;
-        padding: 10px 20px;
+        padding: 30px 20px;
       }
       .card-text {
         color: grey;
