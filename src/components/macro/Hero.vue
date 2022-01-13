@@ -75,8 +75,8 @@ export default {
 
   .logo-yt {
     position: absolute;
-    top: 39%;
-    left: 48%;
+    top: 38%;
+    left: 45%;
   }
 }
 h2 {
@@ -102,6 +102,7 @@ p {
     border: 20px solid white;
     object-fit: contain;
     box-shadow: -1px 2px 22px 6px rgba(0, 0, 0, 0.4);
+    margin-left: -55px;
   }
 }
 </style>

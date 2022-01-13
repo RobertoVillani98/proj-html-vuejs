@@ -141,7 +141,7 @@ export default {
   h2 {
     font-size: 40px;
     margin: 20px 0;
-    font-weight: 400;
+    font-weight: 600;
 
     span {
       color: #27ab94;
@@ -182,6 +182,10 @@ export default {
 
     .desc {
       padding: 10px 0;
+      cursor: pointer;
+      &:hover {
+        color: #27ab94;
+      }
     }
 
     .lessons {

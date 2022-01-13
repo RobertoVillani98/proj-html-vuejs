@@ -130,6 +130,7 @@ export default {
   background-color: #ffffff;
   color: black;
   padding-bottom: 100px;
+  overflow: hidden;
   .text-wrapper {
     text-align: center;
     display: flex;
@@ -196,7 +197,6 @@ export default {
       width: 250px;
       background-color: #fff;
       overflow: hidden;
-      cursor: pointer;
 
       .card-title {
         color: black;
@@ -236,6 +236,7 @@ export default {
       max-width: 400px;
       margin: 20px 0;
       color: black;
+      font-weight: 600;
 
       span {
         color: #27ab94;

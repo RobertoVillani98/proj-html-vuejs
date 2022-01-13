@@ -108,7 +108,7 @@ export default {
     &-title {
       font-size: 40px;
       margin: 20px 0;
-      font-weight: 400;
+      font-weight: 600;
 
       span {
         color: #27ab94;

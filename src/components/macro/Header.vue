@@ -4,7 +4,9 @@
       <nav>
         <img src="../../assets/img/light-logo.png" alt="max choach logo" />
         <ul>
-          <li v-for="(link, index) in links" :key="index">{{ link.name }}</li>
+          <li v-for="(link, index) in links" :key="index">
+            {{ link.name }} <i class="fas fa-chevron-down"></i>
+          </li>
           <li><i class="fas fa-shopping-cart"></i></li>
           <li><i class="far fa-user-circle"></i></li>
           <li>
@@ -55,6 +57,12 @@ header {
     padding: 0px 15px;
     font-size: 14px;
     cursor: pointer;
+  }
+
+  .fa-chevron-down {
+    font-size: 8px;
+    height: 10px;
+    line-height: 8px;
   }
 
   .ricerca {

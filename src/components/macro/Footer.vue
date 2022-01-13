@@ -93,7 +93,7 @@ footer {
         margin: 10px 0;
         a {
           font-size: 12px;
-          color: darkgrey;
+          color: #616865;
           text-decoration: none;
         }
       }
@@ -101,7 +101,7 @@ footer {
         a {
           font-size: 13px;
           font-weight: bold;
-          color: grey;
+          color: black;
           text-decoration: none;
         }
       }
@@ -118,22 +118,22 @@ footer {
             margin-right: 20px;
             .fa-facebook-square {
               font-size: 20px;
-              color: darkgrey;
+              color: #616865;
             }
 
             .fa-twitter {
               font-size: 20px;
-              color: darkgrey;
+              color: #616865;
             }
 
             .fa-instagram {
               font-size: 20px;
-              color: darkgrey;
+              color: #616865;
             }
 
             .fa-linkedin {
               font-size: 20px;
-              color: darkgrey;
+              color: #616865;
             }
           }
         }
@@ -144,7 +144,7 @@ footer {
   .rights {
     font-size: 12px;
     text-align: center;
-    color: darkgrey;
+    color: #616865;
     margin-top: 30px;
   }
   .btn_up {

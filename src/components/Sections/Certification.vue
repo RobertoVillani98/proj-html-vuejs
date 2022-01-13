@@ -32,6 +32,7 @@ export default {
   &-subtitle {
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 500;
 
     span {
       color: #27ab94;
@@ -39,6 +40,7 @@ export default {
   }
   &-title {
     font-size: 30px;
+    font-weight: 500;
   }
 }
 </style>

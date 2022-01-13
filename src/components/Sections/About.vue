@@ -72,6 +72,7 @@ export default {
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 40px;
+    font-weight: 600;
 
     span {
       color: #27ab94;
