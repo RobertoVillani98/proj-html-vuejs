@@ -144,7 +144,7 @@ export default {
   }
 
   .card-text {
-    margin-top: 20px;
+    margin: 50px 0;
 
     .title {
       font-size: 18px;

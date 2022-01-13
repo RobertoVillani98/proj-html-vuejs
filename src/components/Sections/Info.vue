@@ -160,6 +160,7 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+
   .rate {
     font-weight: bold;
     text-align: center;
@@ -182,6 +183,8 @@ export default {
   align-items: center;
   justify-content: center;
   margin-top: 60px;
+  margin-left: 80px;
+
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -218,7 +221,8 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 150px;
+    // padding: 0 150px;
+    margin-left: 100px;
 
     .subtitle {
       text-transform: uppercase;
