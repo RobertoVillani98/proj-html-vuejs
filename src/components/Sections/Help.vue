@@ -82,12 +82,14 @@ export default {
 <style lang="scss" scoped>
 .helps {
   background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 60%,
-    rgba(191, 191, 191, 1) 70%,
-    rgba(229, 229, 229, 1) 80%,
-    rgba(255, 255, 255) 90%
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f1f1f1,
+    #eaeaea,
+    #e3e3e3
   );
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -160,7 +162,7 @@ export default {
 
   .image img {
     width: 250%;
-    margin: 10px 110px;
+    margin: -20px 110px;
   }
 }
 </style>
