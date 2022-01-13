@@ -14,6 +14,17 @@
         src="../../assets/img/home-6-hero-poster-final.jpg"
         alt=""
       />
+
+      <a
+        href="https://www.youtube.com/watch?v=ElFJ1qcl74U&t=1s"
+        target="“blank”"
+      >
+        <img
+          class="logo-yt"
+          src="../../assets/img/icon-youtube-play.png"
+          alt=""
+        />
+      </a>
       <img
         class="hero-dx"
         src="../../assets/img/home-6-hero-right-person-195x300.png"
@@ -60,6 +71,12 @@ export default {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .logo-yt {
+    position: absolute;
+    top: 39%;
+    left: 48%;
   }
 }
 h2 {
