@@ -192,7 +192,7 @@ export default {
     margin-top: 30px;
     gap: 20px;
     .card {
-      box-shadow: -1px 2px 22px 6px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 0px 87px -4px rgba(0, 0, 0, 0.25);
       width: 250px;
       background-color: #fff;
       overflow: hidden;
