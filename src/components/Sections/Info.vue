@@ -139,6 +139,7 @@ export default {
     .text {
       font-size: 25px;
       max-width: 500px;
+      font-weight: 600;
     }
   }
 

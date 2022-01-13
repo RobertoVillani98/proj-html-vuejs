@@ -177,6 +177,7 @@ export default {
     .price {
       font-size: 18px;
       color: #27ab94;
+      font-weight: bold;
     }
 
     .desc {
