@@ -162,7 +162,7 @@ export default {
 
   .image img {
     width: 250%;
-    margin: -20px 110px;
+    margin: -20px 130px;
   }
 }
 </style>
