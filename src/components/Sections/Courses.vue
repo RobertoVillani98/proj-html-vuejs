@@ -7,7 +7,7 @@
         <img src="../../assets/img/course-02-480x298.jpg" alt="" />
         <div class="card-text">
           <div class="price">
-            <p>$40.00</p>
+            <p>$40<span>.00</span></p>
           </div>
           <div class="desc">Learning to write as a Professional Author</div>
 
@@ -41,7 +41,7 @@
         <img src="../../assets/img/stock-full-hd-04-480x298.jpg" alt="" />
         <div class="card-text">
           <div class="price">
-            <p>$19.00</p>
+            <p>$19<span>.00</span></p>
           </div>
           <div class="desc">Open Programming Courses for Everyone: Python</div>
 
@@ -58,7 +58,7 @@
         <img src="../../assets/img/stock-full-hd-06-480x298.jpg" alt="" />
         <div class="card-text">
           <div class="price">
-            <p>$26.00</p>
+            <p>$26<span>.00</span></p>
           </div>
           <div class="desc">Academic Listening and Note-taking</div>
 
@@ -78,14 +78,14 @@
         />
         <div class="card-text">
           <div class="price">
-            <p>$39.00</p>
+            <p>$39<span>.00</span></p>
           </div>
           <div class="desc">Master jQeury in a Short Period of Time</div>
           <div class="lessons">
             <i class="fas fa-newspaper"></i>
             <p>6 lessons</p>
             <i class="far fa-user"></i>
-            <p>51Students</p>
+            <p>51 Students</p>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@
         <img src="../../assets/img/stock-full-hd-05-480x298.jpg" alt="" />
         <div class="card-text">
           <div class="price">
-            <p>$59.00</p>
+            <p>$59<span>.00</span></p>
           </div>
           <div class="desc">Introduction to Javascript for Beginners</div>
 
@@ -178,6 +178,10 @@ export default {
       font-size: 18px;
       color: #27ab94;
       font-weight: bold;
+
+      span {
+        font-size: 12px;
+      }
     }
 
     .desc {
