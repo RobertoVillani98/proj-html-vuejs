@@ -18,16 +18,24 @@
           <li id="social_links">
             <ul>
               <li>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://it-it.facebook.com/" target="“blank”"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.twitter.com" target="“blank”"
+                  ><i class="fab fa-twitter"></i
+                ></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com" target="“blank”"
+                  ><i class="fab fa-instagram"></i
+                ></a>
               </li>
               <li>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://it.linkedin.com/" target="“blank”"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
               </li>
             </ul>
           </li>
@@ -108,8 +116,23 @@ footer {
           li {
             display: inline-block;
             margin-right: 20px;
-            i {
-              font-size: 30px;
+            .fa-facebook-square {
+              font-size: 20px;
+              color: darkgrey;
+            }
+
+            .fa-twitter {
+              font-size: 20px;
+              color: darkgrey;
+            }
+
+            .fa-instagram {
+              font-size: 20px;
+              color: darkgrey;
+            }
+
+            .fa-linkedin {
+              font-size: 20px;
               color: darkgrey;
             }
           }
@@ -119,7 +142,7 @@ footer {
   }
 
   .rights {
-    font-size: 0.7rem;
+    font-size: 12px;
     text-align: center;
     color: darkgrey;
     margin-top: 30px;
