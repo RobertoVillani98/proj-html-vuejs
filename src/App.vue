@@ -6,6 +6,8 @@
     <Courses />
     <About />
     <Blogs />
+    <Help />
+    <Certification />
     <Footer />
   </div>
 </template>
@@ -18,6 +20,8 @@ import Info from "./components/Sections/Info.vue";
 import Courses from "./components/Sections/Courses.vue";
 import About from "./components/Sections/About.vue";
 import Blogs from "./components/Sections/Blogs.vue";
+import Help from "./components/Sections/Help.vue";
+import Certification from "./components/Sections/Certification.vue";
 
 export default {
   name: "App",
@@ -28,6 +32,8 @@ export default {
     Courses,
     About,
     Blogs,
+    Help,
+    Certification,
     Footer,
   },
   data() {
