@@ -96,10 +96,6 @@ export default {
     gap: 20px;
   }
 
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-  }
   img {
     width: 100%;
     height: 200px;

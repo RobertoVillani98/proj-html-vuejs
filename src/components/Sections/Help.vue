@@ -122,11 +122,6 @@ export default {
     gap: 10px;
   }
 
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .fa-flag {
     font-size: 50px;
   }
